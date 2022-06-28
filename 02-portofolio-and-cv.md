@@ -78,4 +78,5 @@ Ini adalah update pertama pada branch master
 
 14. Unggah Git Repository project tersebut tersebut ke dalam GitHub
 >git remote add github https://github.com/anisaauralita/02-portofolio-and-cv.git
+>
 >git push github master
