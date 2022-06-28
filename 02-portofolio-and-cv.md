@@ -8,15 +8,22 @@
 
 3. inisialisasi folder tersebut dengan Git, kemudian simpan perubahan menggunakan commit dengan pesan
 "Inisialisasi GIT Repository"
+
 >git config --global user.name "anisaauralita"
+>
 >git config --global user.email "anisaauralita@gmail.com"
+>
 >git init .
+>
 >git add .
+>
 >git commit -m "Inisialisasi GIT Repository"
 
 4. Ganti teks sebelumnya dengan "Hello world"
 >echo "Hello world" > README.md
+>
 >git add .
+>
 >git commit -m "Second commit, hello world"
 
 5. Tampilkan isi teks tersebut pada command line menggunakan command cat
@@ -31,28 +38,39 @@
 8. pindah branch ke dalam cv, kemudian buat file dengan nama cv.txt dan isi file tersebut dengan kalimat:
 "Ini adalah file CV"
 >git checkout cv
+>
 >echo "Ini adalah file CV" >> cv.txt
 
 9. kemudian simpan perubahan menggunakan commit dengan pesan "Initial CV"
 >git add .
+>
 >git commit -m "Initial CV"
 
 
 10. tambahkan 3 perusahaan yang akan kamu lamar, dan setiap menuliskan 1 nama perusahaan kamu harus melakukan dokumentasi dan menyimpan perubahan menggunakan commit
 
 >nano cv.txt
+>
 >Ctrl + O, ENTER, Ctrl + X
+>
 >git add .
+>
 >git commit -m "Menambahkan perusahaan pertama"
 
 >nano cv.txt
+>
 >Ctrl + O, ENTER, Ctrl + X
+>
 >git add .
+>
 >git commit -m "Menambahkan perusahaan kedua"
 
 >nano cv.txt
+>
 >Ctrl + O, ENTER, Ctrl + X
+>
 >git add .
+>
 >git commit -m "Menambahkan perusahaan ketiga"
 
 11. kembali ke branch master
@@ -66,14 +84,18 @@ jangan lupa untuk menyimpan perubahan menggunakan commit dengan pesan
 "update master pertama"
 
 >nano README.md
+>
 Halo perkenalkan aku halaman utama
 Ini adalah update pertama pada branch master
 >Ctrl + O, ENTER, Ctrl + X
+>
 >git add .
+>
 >git commit -m "Update master pertama"
 
 13. gabungkan branch cv ke dalam branch master menggunakan perintah git merge
 >git commit -m "Merge branch CV"
+>
 >git merge cv
 
 14. Unggah Git Repository project tersebut tersebut ke dalam GitHub
